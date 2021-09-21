@@ -13,6 +13,7 @@
 		80C1262226F44C6100B68427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C1262026F44C6100B68427 /* Main.storyboard */; };
 		80C1262426F44C6300B68427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C1262326F44C6300B68427 /* Assets.xcassets */; };
 		80C1262726F44C6300B68427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C1262526F44C6300B68427 /* LaunchScreen.storyboard */; };
+		80C1263026F44F0100B68427 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C1262F26F44F0100B68427 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		80C1262326F44C6300B68427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C1262626F44C6300B68427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C1262826F44C6300B68427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C1262F26F44F0100B68427 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				80C1262326F44C6300B68427 /* Assets.xcassets */,
 				80C1262526F44C6300B68427 /* LaunchScreen.storyboard */,
 				80C1262826F44C6300B68427 /* Info.plist */,
+				80C1262F26F44F0100B68427 /* TableViewCell.swift */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C1261F26F44C6100B68427 /* ViewController.swift in Sources */,
+				80C1263026F44F0100B68427 /* TableViewCell.swift in Sources */,
 				80C1261B26F44C6100B68427 /* AppDelegate.swift in Sources */,
 				80C1261D26F44C6100B68427 /* SceneDelegate.swift in Sources */,
 			);
